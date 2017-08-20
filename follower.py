@@ -4,10 +4,6 @@ Friends = "follow.txt"
 Added = "added.txt"
 
 def twitter_api():
-	ckey = 'qnuK8Jmf0ofzN9QGCWoCN5qff'
-	csecret = 'y49eh5mvu731AmrFobBItYFofnVUn1VQUTVnjz856w5AxIhT3v'
-	atoken = '886441868069875712-ZgWx0wS57xvapyJ5FxZkf79CRUxL8up'
-	asecret = '8vJ8Si7Ocoj1GnvpQ0CZ0G1lifKB2rei39GCujUtiKmqN'
 	auth = tweepy.OAuthHandler(ckey, csecret)
 	auth.set_access_token(atoken, asecret)
 	api = tweepy.API(auth)
